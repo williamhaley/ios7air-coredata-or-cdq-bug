@@ -1,5 +1,0 @@
-#include "Pods-Appirater.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Appirater" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Appirater" "${PODS_ROOT}/Headers/Bugsnag" "${PODS_ROOT}/Headers/CTAssetsPickerController" "${PODS_ROOT}/Headers/CupertinoYankee" "${PODS_ROOT}/Headers/DateTools" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/Haneke" "${PODS_ROOT}/Headers/ISO8601DateFormatter" "${PODS_ROOT}/Headers/KGNoise" "${PODS_ROOT}/Headers/MRProgress" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/NSData+MD5Digest" "${PODS_ROOT}/Headers/Optimizely-iOS-SDK" "${PODS_ROOT}/Headers/UIImage-ResizeMagick" "${PODS_ROOT}/Headers/VCTransitionsLibrary"
-OTHER_LDFLAGS = -ObjC ${PODS_APPIRATER_OTHER_LDFLAGS}
-PODS_ROOT = ${SRCROOT}

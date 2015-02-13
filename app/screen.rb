@@ -1,29 +1,39 @@
 class Screen < UIViewController
 
   def viewDidLoad
-
-    puts "viewDidLoad"
-
-    boat = Boat.create({
-      some_kinda_boolean: 1
-    })
-
-    puts "Number of records: #{Boat.all.count}"
+    boat  = Boat.create()
+    car   = Car.create()
+    plane = Plane.create()
+    train = Train.create()
 
     cdq.save
 
-    puts boat.some_kinda_boolean
+    [boat, car, plane, train].each do |record|
+      puts "Info for record with class: #{record.class}"
 
-    attribute = boat.entity.attributesByName[:some_kinda_boolean]
-
-    puts "attribute: #{attribute}"
-
-    puts "attributeType: #{attribute.attributeType}" if attribute
-
-    is_boolean = attribute && attribute.attributeType === NSBooleanAttributeType
-
-    puts "boolean? #{is_boolean}"
-
+      print_attribute_info(record, :var1)
+      print_attribute_info(record, :var2)
+      print_attribute_info(record, :var3)
+    end
   end
 
+  def print_attribute_info(record, field)
+    attribute     = record.entity.attributesByName[field]
+    attributeType = record.entity.attributesByName[field].attributeType if attribute
+
+    puts "#{field} | Attribute: [#{attribute}] Type: [#{attributeType}]"
+  end
+
+end
+
+class Boat < CDQManagedObject
+end
+
+class Car < CDQManagedObject
+end
+
+class Plane < CDQManagedObject
+end
+
+class Train < CDQManagedObject
 end
