@@ -15,6 +15,7 @@ class Screen < UIViewController
     puts boat.some_kinda_boolean
 
     attribute = boat.entity.attributesByName[:some_kinda_boolean]
+
     puts "attribute: #{attribute}"
 
     puts "attributeType: #{attribute.attributeType}" if attribute

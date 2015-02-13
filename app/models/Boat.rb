@@ -1,3 +1,0 @@
-class Boat < CDQManagedObject
-
-end
