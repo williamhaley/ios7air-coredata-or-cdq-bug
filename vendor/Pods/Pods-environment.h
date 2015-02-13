@@ -1,0 +1,200 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking 0
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 0
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 0
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 0
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 0
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 0
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 0
+
+// Appirater
+#define COCOAPODS_POD_AVAILABLE_Appirater
+#define COCOAPODS_VERSION_MAJOR_Appirater 2
+#define COCOAPODS_VERSION_MINOR_Appirater 0
+#define COCOAPODS_VERSION_PATCH_Appirater 4
+
+// Bugsnag
+#define COCOAPODS_POD_AVAILABLE_Bugsnag
+#define COCOAPODS_VERSION_MAJOR_Bugsnag 3
+#define COCOAPODS_VERSION_MINOR_Bugsnag 1
+#define COCOAPODS_VERSION_PATCH_Bugsnag 2
+
+// CTAssetsPickerController
+#define COCOAPODS_POD_AVAILABLE_CTAssetsPickerController
+#define COCOAPODS_VERSION_MAJOR_CTAssetsPickerController 2
+#define COCOAPODS_VERSION_MINOR_CTAssetsPickerController 8
+#define COCOAPODS_VERSION_PATCH_CTAssetsPickerController 0
+
+// CupertinoYankee
+#define COCOAPODS_POD_AVAILABLE_CupertinoYankee
+#define COCOAPODS_VERSION_MAJOR_CupertinoYankee 1
+#define COCOAPODS_VERSION_MINOR_CupertinoYankee 0
+#define COCOAPODS_VERSION_PATCH_CupertinoYankee 2
+
+// DateTools
+#define COCOAPODS_POD_AVAILABLE_DateTools
+#define COCOAPODS_VERSION_MAJOR_DateTools 1
+#define COCOAPODS_VERSION_MINOR_DateTools 4
+#define COCOAPODS_VERSION_PATCH_DateTools 3
+
+// GoogleAnalytics-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK
+#define COCOAPODS_VERSION_MAJOR_GoogleAnalytics_iOS_SDK 3
+#define COCOAPODS_VERSION_MINOR_GoogleAnalytics_iOS_SDK 10
+#define COCOAPODS_VERSION_PATCH_GoogleAnalytics_iOS_SDK 0
+
+// GoogleAnalytics-iOS-SDK/Core
+#define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK_Core
+#define COCOAPODS_VERSION_MAJOR_GoogleAnalytics_iOS_SDK_Core 3
+#define COCOAPODS_VERSION_MINOR_GoogleAnalytics_iOS_SDK_Core 10
+#define COCOAPODS_VERSION_PATCH_GoogleAnalytics_iOS_SDK_Core 0
+
+// GoogleAnalytics-iOS-SDK/IDFA
+#define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK_IDFA
+#define COCOAPODS_VERSION_MAJOR_GoogleAnalytics_iOS_SDK_IDFA 3
+#define COCOAPODS_VERSION_MINOR_GoogleAnalytics_iOS_SDK_IDFA 10
+#define COCOAPODS_VERSION_PATCH_GoogleAnalytics_iOS_SDK_IDFA 0
+
+// Haneke
+#define COCOAPODS_POD_AVAILABLE_Haneke
+#define COCOAPODS_VERSION_MAJOR_Haneke 1
+#define COCOAPODS_VERSION_MINOR_Haneke 0
+#define COCOAPODS_VERSION_PATCH_Haneke 1
+
+// ISO8601DateFormatter
+#define COCOAPODS_POD_AVAILABLE_ISO8601DateFormatter
+#define COCOAPODS_VERSION_MAJOR_ISO8601DateFormatter 0
+#define COCOAPODS_VERSION_MINOR_ISO8601DateFormatter 7
+#define COCOAPODS_VERSION_PATCH_ISO8601DateFormatter 0
+
+// KGNoise
+#define COCOAPODS_POD_AVAILABLE_KGNoise
+#define COCOAPODS_VERSION_MAJOR_KGNoise 1
+#define COCOAPODS_VERSION_MINOR_KGNoise 2
+#define COCOAPODS_VERSION_PATCH_KGNoise 1
+
+// MRProgress/ActivityIndicator
+#define COCOAPODS_POD_AVAILABLE_MRProgress_ActivityIndicator
+#define COCOAPODS_VERSION_MAJOR_MRProgress_ActivityIndicator 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_ActivityIndicator 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_ActivityIndicator 1
+
+// MRProgress/Blur
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Blur
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Blur 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Blur 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Blur 1
+
+// MRProgress/Circular
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Circular
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Circular 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Circular 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Circular 1
+
+// MRProgress/Helper
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Helper
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Helper 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Helper 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Helper 1
+
+// MRProgress/Icons
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Icons
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Icons 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Icons 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Icons 1
+
+// MRProgress/Overlay
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Overlay
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Overlay 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Overlay 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Overlay 1
+
+// MRProgress/ProgressBaseClass
+#define COCOAPODS_POD_AVAILABLE_MRProgress_ProgressBaseClass
+#define COCOAPODS_VERSION_MAJOR_MRProgress_ProgressBaseClass 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_ProgressBaseClass 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_ProgressBaseClass 1
+
+// MRProgress/Stopable
+#define COCOAPODS_POD_AVAILABLE_MRProgress_Stopable
+#define COCOAPODS_VERSION_MAJOR_MRProgress_Stopable 0
+#define COCOAPODS_VERSION_MINOR_MRProgress_Stopable 8
+#define COCOAPODS_VERSION_PATCH_MRProgress_Stopable 1
+
+// Mixpanel
+#define COCOAPODS_POD_AVAILABLE_Mixpanel
+#define COCOAPODS_VERSION_MAJOR_Mixpanel 2
+#define COCOAPODS_VERSION_MINOR_Mixpanel 6
+#define COCOAPODS_VERSION_PATCH_Mixpanel 2
+
+// Mixpanel/MPCategoryHelpers
+#define COCOAPODS_POD_AVAILABLE_Mixpanel_MPCategoryHelpers
+#define COCOAPODS_VERSION_MAJOR_Mixpanel_MPCategoryHelpers 2
+#define COCOAPODS_VERSION_MINOR_Mixpanel_MPCategoryHelpers 6
+#define COCOAPODS_VERSION_PATCH_Mixpanel_MPCategoryHelpers 2
+
+// NSData+MD5Digest
+#define COCOAPODS_POD_AVAILABLE_NSData_MD5Digest
+#define COCOAPODS_VERSION_MAJOR_NSData_MD5Digest 1
+#define COCOAPODS_VERSION_MINOR_NSData_MD5Digest 0
+#define COCOAPODS_VERSION_PATCH_NSData_MD5Digest 0
+
+// Optimizely-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_Optimizely_iOS_SDK
+#define COCOAPODS_VERSION_MAJOR_Optimizely_iOS_SDK 1
+#define COCOAPODS_VERSION_MINOR_Optimizely_iOS_SDK 0
+#define COCOAPODS_VERSION_PATCH_Optimizely_iOS_SDK 70
+
+// UIImage-ResizeMagick
+#define COCOAPODS_POD_AVAILABLE_UIImage_ResizeMagick
+#define COCOAPODS_VERSION_MAJOR_UIImage_ResizeMagick 0
+#define COCOAPODS_VERSION_MINOR_UIImage_ResizeMagick 0
+#define COCOAPODS_VERSION_PATCH_UIImage_ResizeMagick 1
+
+// VCTransitionsLibrary
+#define COCOAPODS_POD_AVAILABLE_VCTransitionsLibrary
+#define COCOAPODS_VERSION_MAJOR_VCTransitionsLibrary 1
+#define COCOAPODS_VERSION_MINOR_VCTransitionsLibrary 5
+#define COCOAPODS_VERSION_PATCH_VCTransitionsLibrary 0
+

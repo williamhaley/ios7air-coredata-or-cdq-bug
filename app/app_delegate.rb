@@ -1,6 +1,6 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    rootViewController = UIViewController.alloc.init
+    rootViewController = Screen.alloc.init
     rootViewController.title = 'ios7air-coredata-or-cdq-bug'
     rootViewController.view.backgroundColor = UIColor.whiteColor
 

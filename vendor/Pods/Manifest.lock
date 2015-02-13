@@ -1,0 +1,97 @@
+PODS:
+  - AFNetworking (2.1.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.1.0):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.1.0)
+  - AFNetworking/Security (2.1.0)
+  - AFNetworking/Serialization (2.1.0)
+  - AFNetworking/UIKit (2.1.0):
+    - AFNetworking/NSURLConnection
+  - Appirater (2.0.4)
+  - Bugsnag (3.1.2)
+  - CTAssetsPickerController (2.8.0)
+  - CupertinoYankee (1.0.2)
+  - DateTools (1.4.3)
+  - GoogleAnalytics-iOS-SDK (3.10):
+    - GoogleAnalytics-iOS-SDK/Core
+    - GoogleAnalytics-iOS-SDK/IDFA
+  - GoogleAnalytics-iOS-SDK/Core (3.10)
+  - GoogleAnalytics-iOS-SDK/IDFA (3.10):
+    - GoogleAnalytics-iOS-SDK/Core
+  - Haneke (1.0.1)
+  - ISO8601DateFormatter (0.7)
+  - KGNoise (1.2.1)
+  - Mixpanel (2.6.2):
+    - Mixpanel/MPCategoryHelpers
+  - Mixpanel/MPCategoryHelpers (2.6.2)
+  - MRProgress/ActivityIndicator (0.8.1):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.1):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.1):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.1)
+  - MRProgress/Icons (0.8.1)
+  - MRProgress/Overlay (0.8.1):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.1)
+  - MRProgress/Stopable (0.8.1):
+    - MRProgress/Helper
+  - NSData+MD5Digest (1.0.0)
+  - Optimizely-iOS-SDK (1.0.70)
+  - UIImage-ResizeMagick (0.0.1)
+  - VCTransitionsLibrary (1.5.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.1.0)
+  - Appirater (= 2.0.4)
+  - Bugsnag (= 3.1.2)
+  - CTAssetsPickerController (= 2.8.0)
+  - CupertinoYankee (= 1.0.2)
+  - DateTools (= 1.4.3)
+  - GoogleAnalytics-iOS-SDK (= 3.10)
+  - Haneke (= 1.0.1)
+  - ISO8601DateFormatter (= 0.7)
+  - KGNoise (= 1.2.1)
+  - Mixpanel (= 2.6.2)
+  - MRProgress/Overlay (= 0.8.1)
+  - NSData+MD5Digest (= 1.0.0)
+  - Optimizely-iOS-SDK (= 1.0.70)
+  - UIImage-ResizeMagick (= 0.0.1)
+  - VCTransitionsLibrary (= 1.5.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 7c33510b46f994bc75b75c6e63c1d83414ca40f2
+  Appirater: cbdb7f305562cfde585300bfff86da01ae559deb
+  Bugsnag: 74d109dfa41b55d16890c987c7551ca071afd3d2
+  CTAssetsPickerController: 32b02079e2dd41c76fbc63740f4638ced71b7d1b
+  CupertinoYankee: 3f2a0e46abad27ebeecfdbd607ced58f34729b99
+  DateTools: 7c2d233ea2d4bda3a717d0cd5f58da926a5998d0
+  GoogleAnalytics-iOS-SDK: f422062075d9ccb1ea8d783fc5ba3829461e9502
+  Haneke: 943f7121b50d31a31a0942afdacb7e6a26ea6181
+  ISO8601DateFormatter: 59731cd880cf87e71b4fa95f0d6b713dcbc4cbce
+  KGNoise: eaf9fcad1ebb6930e11431caf2ffafdb3c726dd6
+  Mixpanel: c075cedebda3328ce1ee29a18429e265ce967cd8
+  MRProgress: cd12726e001ea25dec133322d34cc4754cbc58f8
+  NSData+MD5Digest: 3662c71c33c32cac0302dce76df6df7a6d81acca
+  Optimizely-iOS-SDK: 473015a47e3222974dd0457627eb2c2799b4757b
+  UIImage-ResizeMagick: 6edd4b95aabf4be264bf99147aa27abb319f3c7f
+  VCTransitionsLibrary: 3c33ef649f7380bdb5bff5212f01c8f3f9eb5492
+
+COCOAPODS: 0.32.1

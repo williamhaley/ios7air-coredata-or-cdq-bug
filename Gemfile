@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-# Add your dependencies here:
-gem 'cdq', '0.1.11'
+gem 'awesome_print_motion', '0.1.0'
+gem 'afmotion',             '2.1.2'
+gem 'bubble-wrap',          '1.7.1', :require => 'bubble-wrap/core'
+gem 'cdq',                  '0.1.11'
+gem 'dish',                 '0.0.3', :require => 'dish/motion'
+gem 'motion-addressbook',   '1.7.2'
+gem 'motion-cocoapods',     '1.4.1'
+gem 'motion-env',           '0.0.3'
+gem 'motion-wiretap',       '1.1.8'
+gem 'motion_print',         '0.0.1'
+gem 'rake',                 '10.3.0'
+gem 'ruby_motion_query',    '0.8.0'
