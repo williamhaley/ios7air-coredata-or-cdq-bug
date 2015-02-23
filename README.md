@@ -19,7 +19,7 @@ I ran (roughly) these steps to get to where I am now:
 
 You can use this pull to see the differences between my app and the result of a `motion create PROJECT_NAME` that I ran on my machine.
 
-https://github.com/williamhaley/ios7air-coredata-or-cdq-bug/pull/2
+https://github.com/williamhaley/ios7air-coredata-or-cdq-bug/pull/2/files
 
 I've tried the `newclear` gem to get my environment to a clean state.  I've also tried uninstalling all gems, then running a `bundle` to try and remove any possible issues caused by inconsistent versions.
 
