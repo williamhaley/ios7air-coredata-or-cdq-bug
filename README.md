@@ -21,4 +21,12 @@ You can use this pull to see the differences between my app and the result of a 
 
 https://github.com/williamhaley/ios7air-coredata-or-cdq-bug/pull/1/files
 
-I've tried the `newclear` gem to get my environment to a clean state.
+I've tried the `newclear` gem to get my environment to a clean state.  I've also tried uninstalling all gems, then running a `bundle` to try and remove any possible issues caused by inconsistent versions.
+
+`gem uninstall --all --executables`
+
+I continue to see the bug that I reference in my issue tracker case.
+
+This is how I run the simulator for iOS 7.1 iPad Air on my machine (I've renamed the simulators on my machine in XCode)
+
+`rake device_name="iPad Air 7.1"`
