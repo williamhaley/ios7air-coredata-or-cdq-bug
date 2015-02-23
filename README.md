@@ -2,6 +2,8 @@
 
 This project results in a weird CDQ/CoreData bug for me with the iPad Air.  It happens on both the simulator and the physical device when using iOS7.1
 
+I opened an [issue](https://github.com/infinitered/cdq/issues/79) for this bug.
+
 This project is a demo to recreate an issue I saw with a much more complex project.
 
 I ran (roughly) these steps to get to where I am now:
@@ -18,3 +20,5 @@ I ran (roughly) these steps to get to where I am now:
 You can use this pull to see the differences between my app and the result of a `motion create PROJECT_NAME` that I ran on my machine.
 
 https://github.com/williamhaley/ios7air-coredata-or-cdq-bug/pull/1/files
+
+I've tried the `newclear` gem to get my environment to a clean state.
