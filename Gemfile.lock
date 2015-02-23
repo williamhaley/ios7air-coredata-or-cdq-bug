@@ -11,8 +11,11 @@ GEM
     i18n (0.6.9)
     motion-yaml (1.4)
     multi_json (1.9.2)
+    newclear (0.5)
+      reset-sim
     plist (3.1.0)
     rake (10.3.0)
+    reset-sim (1.0)
     ruby-xcdm (0.0.8)
       activesupport (~> 3.2)
       builder (~> 3.2)
@@ -23,4 +26,5 @@ PLATFORMS
 
 DEPENDENCIES
   cdq (= 0.1.11)
+  newclear
   rake
